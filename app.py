@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 df = pd.read_csv("./data/terrorism.csv", encoding='latin-1', low_memory=False)
 
 if __name__ == "__main__":
+    stt.set_theme({'primary': '#1b3388' })
     st.set_page_config(
         page_title="BI GTD Analytics",
         initial_sidebar_state="collapsed")
